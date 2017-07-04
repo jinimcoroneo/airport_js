@@ -5,7 +5,6 @@ Plane.prototype.land = function(airport) {
   this.location = airport;
 };
 
-
 Plane.prototype.takeoff = function() {
   this.isFlying = true
   this.location = null
